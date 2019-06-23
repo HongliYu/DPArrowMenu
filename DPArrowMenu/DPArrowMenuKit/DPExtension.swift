@@ -10,11 +10,11 @@ import UIKit
 
 public extension UIScreen {
   
-  public static func screen_width() -> CGFloat {
+  static func screen_width() -> CGFloat {
     return main.bounds.size.width
   }
   
-  public static func screen_height() -> CGFloat {
+  static func screen_height() -> CGFloat {
     return main.bounds.size.height
   }
   
@@ -22,7 +22,7 @@ public extension UIScreen {
 
 public extension UIControl {
   
-  public func set(_ anchorPoint: CGPoint) {
+  func set(_ anchorPoint: CGPoint) {
     var newPoint = CGPoint(x: bounds.size.width * anchorPoint.x,
                            y: bounds.size.height * anchorPoint.y)
     var oldPoint = CGPoint(x: bounds.size.width * layer.anchorPoint.x,

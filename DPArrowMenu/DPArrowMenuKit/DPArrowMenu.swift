@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DPArrowMenu: NSObject {
+public class DPArrowMenu: NSObject {
     
   static let shared = DPArrowMenu()
   private var configuration = DPConfiguration()

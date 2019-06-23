@@ -8,12 +8,12 @@
 
 import Foundation
 
-class DPArrowMenuViewModel {
+public class DPArrowMenuViewModel {
     
   var title: String?
   var imageName: String?
     
-  init(title: String, imageName: String) {
+  public init(title: String, imageName: String) {
     self.title = title
     self.imageName = imageName
   }
