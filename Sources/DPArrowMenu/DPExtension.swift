@@ -6,6 +6,8 @@
 //  Copyright © 2018 Hongli Yu. All rights reserved.
 //
 
+#if !os(watchOS)
+#if canImport(UIKit)
 import UIKit
 
 public extension UIScreen {
@@ -59,3 +61,5 @@ public extension UITableView {
   }
   
 }
+#endif
+#endif

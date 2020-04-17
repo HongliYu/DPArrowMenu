@@ -3,7 +3,7 @@ Click the button in any position, show a list of menu
 
 [![Cocoapods](https://img.shields.io/cocoapods/v/DPArrowMenuKit.svg)](http://cocoapods.org/?q=DPArrowMenuKit)
 [![Pod License](http://img.shields.io/cocoapods/l/DPArrowMenuKit.svg)](https://github.com/HongliYu/DPSlideMenuKit-Swift/blob/master/LICENSE)
-[![Swift-4.0](https://img.shields.io/badge/Swift-4.2-blue.svg)]()
+[![Swift-5.0](https://img.shields.io/badge/Swift-5.0-blue.svg)]()
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 <img src="https://github.com/HongliYu/DPArrowMenu/blob/master/DPArrowMenu.png?raw=true" alt="alt text"  height="400">

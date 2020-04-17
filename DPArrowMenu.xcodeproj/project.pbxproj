@@ -7,28 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F722BE39244A0DD900E52DAC /* DPConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F722BE32244A0DD900E52DAC /* DPConfiguration.swift */; };
+		F722BE3A244A0DD900E52DAC /* DPArrowMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F722BE33244A0DD900E52DAC /* DPArrowMenuViewModel.swift */; };
+		F722BE3B244A0DD900E52DAC /* DPExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F722BE34244A0DD900E52DAC /* DPExtension.swift */; };
+		F722BE3C244A0DD900E52DAC /* DPPopOverMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F722BE35244A0DD900E52DAC /* DPPopOverMenuCell.swift */; };
+		F722BE3E244A0DD900E52DAC /* DPArrowMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F722BE37244A0DD900E52DAC /* DPArrowMenu.swift */; };
+		F722BE3F244A0DD900E52DAC /* DPArrowMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F722BE38244A0DD900E52DAC /* DPArrowMenuView.swift */; };
 		F74FEA0D1E30684600EE191E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FEA0C1E30684600EE191E /* AppDelegate.swift */; };
 		F74FEA0F1E30684600EE191E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FEA0E1E30684600EE191E /* ViewController.swift */; };
 		F74FEA121E30684600EE191E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74FEA101E30684600EE191E /* Main.storyboard */; };
 		F74FEA141E30684600EE191E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74FEA131E30684600EE191E /* Assets.xcassets */; };
 		F74FEA171E30684600EE191E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74FEA151E30684600EE191E /* LaunchScreen.storyboard */; };
-		F7DD5B4C21E7D3A100239188 /* DPConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4521E7D3A100239188 /* DPConfiguration.swift */; };
-		F7DD5B4D21E7D3A100239188 /* DPArrowMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4621E7D3A100239188 /* DPArrowMenuViewModel.swift */; };
-		F7DD5B4E21E7D3A100239188 /* DPExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4721E7D3A100239188 /* DPExtension.swift */; };
-		F7DD5B4F21E7D3A100239188 /* DPPopOverMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4821E7D3A100239188 /* DPPopOverMenuCell.swift */; };
-		F7DD5B5021E7D3A100239188 /* DPPopOverMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DD5B4921E7D3A100239188 /* DPPopOverMenuCell.xib */; };
-		F7DD5B5121E7D3A100239188 /* DPArrowMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4A21E7D3A100239188 /* DPArrowMenu.swift */; };
-		F7DD5B5221E7D3A100239188 /* DPArrowMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4B21E7D3A100239188 /* DPArrowMenuView.swift */; };
 		F7DD5B5C21E7E01900239188 /* DPArrowMenuKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F7DD5B5A21E7E01900239188 /* DPArrowMenuKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7DD5B5F21E7E01900239188 /* DPArrowMenuKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DD5B5821E7E01900239188 /* DPArrowMenuKit.framework */; };
 		F7DD5B6021E7E01900239188 /* DPArrowMenuKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7DD5B5821E7E01900239188 /* DPArrowMenuKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F7DD5B6521E7E07200239188 /* DPConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4521E7D3A100239188 /* DPConfiguration.swift */; };
-		F7DD5B6621E7E07200239188 /* DPExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4721E7D3A100239188 /* DPExtension.swift */; };
-		F7DD5B6721E7E07200239188 /* DPArrowMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4621E7D3A100239188 /* DPArrowMenuViewModel.swift */; };
-		F7DD5B6821E7E07200239188 /* DPArrowMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4A21E7D3A100239188 /* DPArrowMenu.swift */; };
-		F7DD5B6921E7E07200239188 /* DPArrowMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4B21E7D3A100239188 /* DPArrowMenuView.swift */; };
-		F7DD5B6A21E7E07200239188 /* DPPopOverMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD5B4821E7D3A100239188 /* DPPopOverMenuCell.swift */; };
-		F7DD5B6B21E7E07800239188 /* DPPopOverMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DD5B4921E7D3A100239188 /* DPPopOverMenuCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +48,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F722BE32244A0DD900E52DAC /* DPConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPConfiguration.swift; sourceTree = "<group>"; };
+		F722BE33244A0DD900E52DAC /* DPArrowMenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPArrowMenuViewModel.swift; sourceTree = "<group>"; };
+		F722BE34244A0DD900E52DAC /* DPExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPExtension.swift; sourceTree = "<group>"; };
+		F722BE35244A0DD900E52DAC /* DPPopOverMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPPopOverMenuCell.swift; sourceTree = "<group>"; };
+		F722BE37244A0DD900E52DAC /* DPArrowMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPArrowMenu.swift; sourceTree = "<group>"; };
+		F722BE38244A0DD900E52DAC /* DPArrowMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPArrowMenuView.swift; sourceTree = "<group>"; };
 		F74FEA091E30684600EE191E /* DPArrowMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPArrowMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74FEA0C1E30684600EE191E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F74FEA0E1E30684600EE191E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,13 +61,6 @@
 		F74FEA131E30684600EE191E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74FEA161E30684600EE191E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F74FEA181E30684600EE191E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7DD5B4521E7D3A100239188 /* DPConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPConfiguration.swift; sourceTree = "<group>"; };
-		F7DD5B4621E7D3A100239188 /* DPArrowMenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPArrowMenuViewModel.swift; sourceTree = "<group>"; };
-		F7DD5B4721E7D3A100239188 /* DPExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPExtension.swift; sourceTree = "<group>"; };
-		F7DD5B4821E7D3A100239188 /* DPPopOverMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPPopOverMenuCell.swift; sourceTree = "<group>"; };
-		F7DD5B4921E7D3A100239188 /* DPPopOverMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPPopOverMenuCell.xib; sourceTree = "<group>"; };
-		F7DD5B4A21E7D3A100239188 /* DPArrowMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPArrowMenu.swift; sourceTree = "<group>"; };
-		F7DD5B4B21E7D3A100239188 /* DPArrowMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPArrowMenuView.swift; sourceTree = "<group>"; };
 		F7DD5B5821E7E01900239188 /* DPArrowMenuKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DPArrowMenuKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DD5B5A21E7E01900239188 /* DPArrowMenuKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPArrowMenuKit.h; sourceTree = "<group>"; };
 		F7DD5B5B21E7E01900239188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +85,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F722BE31244A0DD900E52DAC /* DPArrowMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F722BE32244A0DD900E52DAC /* DPConfiguration.swift */,
+				F722BE33244A0DD900E52DAC /* DPArrowMenuViewModel.swift */,
+				F722BE34244A0DD900E52DAC /* DPExtension.swift */,
+				F722BE35244A0DD900E52DAC /* DPPopOverMenuCell.swift */,
+				F722BE37244A0DD900E52DAC /* DPArrowMenu.swift */,
+				F722BE38244A0DD900E52DAC /* DPArrowMenuView.swift */,
+			);
+			name = DPArrowMenu;
+			path = Sources/DPArrowMenu;
+			sourceTree = SOURCE_ROOT;
+		};
 		F74FEA001E30684600EE191E = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +120,7 @@
 		F74FEA0B1E30684600EE191E /* DPArrowMenu */ = {
 			isa = PBXGroup;
 			children = (
-				F7DD5B4421E7D3A100239188 /* DPArrowMenuKit */,
+				F722BE31244A0DD900E52DAC /* DPArrowMenu */,
 				F74FEA0C1E30684600EE191E /* AppDelegate.swift */,
 				F74FEA0E1E30684600EE191E /* ViewController.swift */,
 				F74FEA101E30684600EE191E /* Main.storyboard */,
@@ -124,20 +129,6 @@
 				F74FEA181E30684600EE191E /* Info.plist */,
 			);
 			path = DPArrowMenu;
-			sourceTree = "<group>";
-		};
-		F7DD5B4421E7D3A100239188 /* DPArrowMenuKit */ = {
-			isa = PBXGroup;
-			children = (
-				F7DD5B4521E7D3A100239188 /* DPConfiguration.swift */,
-				F7DD5B4721E7D3A100239188 /* DPExtension.swift */,
-				F7DD5B4621E7D3A100239188 /* DPArrowMenuViewModel.swift */,
-				F7DD5B4A21E7D3A100239188 /* DPArrowMenu.swift */,
-				F7DD5B4B21E7D3A100239188 /* DPArrowMenuView.swift */,
-				F7DD5B4821E7D3A100239188 /* DPPopOverMenuCell.swift */,
-				F7DD5B4921E7D3A100239188 /* DPPopOverMenuCell.xib */,
-			);
-			path = DPArrowMenuKit;
 			sourceTree = "<group>";
 		};
 		F7DD5B5921E7E01900239188 /* DPArrowMenuKit */ = {
@@ -250,7 +241,6 @@
 			files = (
 				F74FEA171E30684600EE191E /* LaunchScreen.storyboard in Resources */,
 				F74FEA141E30684600EE191E /* Assets.xcassets in Resources */,
-				F7DD5B5021E7D3A100239188 /* DPPopOverMenuCell.xib in Resources */,
 				F74FEA121E30684600EE191E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +249,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7DD5B6B21E7E07800239188 /* DPPopOverMenuCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,13 +260,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74FEA0F1E30684600EE191E /* ViewController.swift in Sources */,
-				F7DD5B4D21E7D3A100239188 /* DPArrowMenuViewModel.swift in Sources */,
+				F722BE3A244A0DD900E52DAC /* DPArrowMenuViewModel.swift in Sources */,
 				F74FEA0D1E30684600EE191E /* AppDelegate.swift in Sources */,
-				F7DD5B5121E7D3A100239188 /* DPArrowMenu.swift in Sources */,
-				F7DD5B4E21E7D3A100239188 /* DPExtension.swift in Sources */,
-				F7DD5B4F21E7D3A100239188 /* DPPopOverMenuCell.swift in Sources */,
-				F7DD5B4C21E7D3A100239188 /* DPConfiguration.swift in Sources */,
-				F7DD5B5221E7D3A100239188 /* DPArrowMenuView.swift in Sources */,
+				F722BE3E244A0DD900E52DAC /* DPArrowMenu.swift in Sources */,
+				F722BE3B244A0DD900E52DAC /* DPExtension.swift in Sources */,
+				F722BE3C244A0DD900E52DAC /* DPPopOverMenuCell.swift in Sources */,
+				F722BE39244A0DD900E52DAC /* DPConfiguration.swift in Sources */,
+				F722BE3F244A0DD900E52DAC /* DPArrowMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7DD5B6521E7E07200239188 /* DPConfiguration.swift in Sources */,
-				F7DD5B6621E7E07200239188 /* DPExtension.swift in Sources */,
-				F7DD5B6721E7E07200239188 /* DPArrowMenuViewModel.swift in Sources */,
-				F7DD5B6821E7E07200239188 /* DPArrowMenu.swift in Sources */,
-				F7DD5B6921E7E07200239188 /* DPArrowMenuView.swift in Sources */,
-				F7DD5B6A21E7E07200239188 /* DPPopOverMenuCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +362,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -429,6 +413,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -436,7 +421,6 @@
 		F74FEA1C1E30684600EE191E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = FC9QT6TC28;
@@ -452,7 +436,6 @@
 		F74FEA1D1E30684600EE191E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = FC9QT6TC28;

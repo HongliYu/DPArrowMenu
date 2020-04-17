@@ -6,6 +6,8 @@
 //  Copyright © 2018 Hongli Yu. All rights reserved.
 //
 
+#if !os(watchOS)
+#if canImport(UIKit)
 import UIKit
 
 enum DPArrowMenuDirection {
@@ -44,3 +46,5 @@ public struct DPConfiguration {
                                                              bottom: 0, right: DPDefaultCellMargin)
   
 }
+#endif
+#endif

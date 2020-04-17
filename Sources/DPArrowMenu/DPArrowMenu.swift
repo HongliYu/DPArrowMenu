@@ -6,6 +6,8 @@
 //  Copyright © 2017 Hongli Yu. All rights reserved.
 //
 
+#if !os(watchOS)
+#if canImport(UIKit)
 import UIKit
 
 public class DPArrowMenu: NSObject {
@@ -265,3 +267,5 @@ extension DPArrowMenu: UIGestureRecognizerDelegate {
   }
     
 }
+#endif
+#endif

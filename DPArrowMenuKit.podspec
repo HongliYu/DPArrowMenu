@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DPArrowMenuKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "arrow menu"
 
   s.description  = <<-DESC
@@ -12,9 +12,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "HongliYu" => "yhlssdone@gmail.com" }
   s.source       = { :git => "https://github.com/HongliYu/DPArrowMenu.git", :tag => "#{s.version}" }
-  s.source_files = "DPArrowMenu/DPArrowMenuKit/"
-  s.resources = ['DPArrowMenu/DPArrowMenuKit/*.{xib}']
-  s.platform     = :ios, "10.0"
+  s.source_files = "Sources/DPArrowMenu/"
+  s.platform     = :ios, "11.0"
   s.requires_arc = true
   s.frameworks   = 'UIKit', 'Foundation'
   s.module_name  = 'DPArrowMenuKit'

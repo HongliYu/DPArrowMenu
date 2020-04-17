@@ -6,6 +6,8 @@
 //  Copyright © 2017 Hongli Yu. All rights reserved.
 //
 
+#if !os(watchOS)
+#if canImport(UIKit)
 import UIKit
 
 class DPArrowMenuView: UIControl {
@@ -197,3 +199,5 @@ extension DPArrowMenuView: UITableViewDataSource {
   }
     
 }
+#endif
+#endif

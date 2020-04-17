@@ -22,11 +22,12 @@ class ViewController: UIViewController {
     viewModels.append(arrowMenuViewModel0)
     viewModels.append(arrowMenuViewModel1)
   }
-    
+
   @IBAction func showAction(_ sender: Any) {
     guard let view = sender as? UIView else { return }
-    DPArrowMenu.show(view, viewModels: viewModels, done: { index in
-      print(index)
+    DPArrowMenu.show(view, viewModels: viewModels, done: { [weak self] index in
+      guard let title = self?.viewModels[index].title else { return }
+      self?.showAlert(alertText: title, alertMessage: "selected index \(index)")
     }) {
       print("cancel")
     }
@@ -34,3 +35,16 @@ class ViewController: UIViewController {
 
 }
 
+extension UIViewController {
+
+  func showAlert(alertText : String, alertMessage : String) {
+    let alert = UIAlertController(title: alertText,
+                                  message: alertMessage,
+                                  preferredStyle: UIAlertController.Style.alert)
+    alert.addAction(UIAlertAction(title: "Got it",
+                                  style: UIAlertAction.Style.default,
+                                  handler: nil))
+    self.present(alert, animated: true, completion: nil)
+  }
+
+}
